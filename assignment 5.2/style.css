@@ -1,0 +1,16 @@
+
+/* On screens that are more than 450px wide, the background color is green and text color is white */
+header {
+	background-color:green;
+	padding:20px;
+	color:white;
+}
+
+/* On screens that are 450px wide or less, the background color is blue and text color is white */
+@media screen and (max-width: 450px){
+	header {	
+		background-color:blue;
+		padding:20px;
+		color:white;
+	}
+}
